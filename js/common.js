@@ -18,10 +18,13 @@ $(document).ready(function(){
   } else{
     $("footer .inner > ul").off('click');
   };
-  // $(window).on('resize',function(){
-  //   www = $(window).width();
-  //   location.reload();
-  // });
+  $(window).on('resize',function(){
+    www = $(window).width();
+    if(www < 768){
+      location.reload();
+    }
+  });
+
 
   if(www < 1023){
     $(".trigger").click(function(){
