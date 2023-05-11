@@ -66,10 +66,10 @@ $(function(){
   }  
   initSwiper();
 
-  $(window).on('resize',function(){
-    ww = $(window).width();
-    initSwiper();
-  });
+  // $(window).on('resize',function(){
+  //   ww = $(window).width();
+  //   initSwiper();
+  // });
 
 
 
