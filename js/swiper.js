@@ -20,7 +20,7 @@ $(function(){
     slidesPerView: 4,
     spaceBetween: 20,
     breakpoints: {
-      480: {
+      280: {
         slidesPerView: 2,
         spaceBetween: 20,
       },
